@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use App\Enums\StaticDataType;
 
 class CreateStaticDatasTable extends Migration
 {
@@ -17,6 +18,7 @@ class CreateStaticDatasTable extends Migration
             $table->increments('id');
             $table->text('name');
             $table->text('slug');
+            $table->enum("static_data_type",StaticDataType::toArray());
             $table->integer('parent_id')->unsigned()->nullable();
             $table->foreign('parent_id')->references('id')->on('static_datas');
             $table->timestamps();

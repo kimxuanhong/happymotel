@@ -9,4 +9,5 @@ final class StaticDataType extends Enum
     const WARD = "WARD";
     const CITY = "CITY";
     const REGION = "REGION";
+    const CONVENIENT = "CONVENIENT";
 }

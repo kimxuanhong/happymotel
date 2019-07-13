@@ -19,6 +19,7 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '2e8ee9f8e1e8c7e66f455d2e805a9ae7' => __DIR__ . '/../..' . '/app/function/function.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -384,7 +385,11 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         'App\\Account' => __DIR__ . '/../..' . '/app/Account.php',
         'App\\Booking' => __DIR__ . '/../..' . '/app/Booking.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
-        'App\\Convenient' => __DIR__ . '/../..' . '/app/Convenient.php',
+        'App\\Enums\\AccountStatus' => __DIR__ . '/../..' . '/app/Enums/AccountStatus.php',
+        'App\\Enums\\Gender' => __DIR__ . '/../..' . '/app/Enums/Gender.php',
+        'App\\Enums\\MotelStatus' => __DIR__ . '/../..' . '/app/Enums/MotelStatus.php',
+        'App\\Enums\\StaticDataType' => __DIR__ . '/../..' . '/app/Enums/StaticDataType.php',
+        'App\\Enums\\UserRole' => __DIR__ . '/../..' . '/app/Enums/UserRole.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AccountController' => __DIR__ . '/../..' . '/app/Http/Controllers/AccountController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -393,7 +398,7 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\BookingController' => __DIR__ . '/../..' . '/app/Http/Controllers/BookingController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\ConvenientController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConvenientController.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\MotelController' => __DIR__ . '/../..' . '/app/Http/Controllers/MotelController.php',
         'App\\Http\\Controllers\\StaticDataController' => __DIR__ . '/../..' . '/app/Http/Controllers/StaticDataController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
