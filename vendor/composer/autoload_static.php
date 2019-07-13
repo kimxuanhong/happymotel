@@ -26,6 +26,10 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'h' => 
+        array (
+            'hanneskod\\classtools\\' => 21,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -121,6 +125,10 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
             'Cron\\' => 5,
             'Carbon\\' => 7,
         ),
+        'B' => 
+        array (
+            'BenSampo\\Enum\\' => 14,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -133,6 +141,10 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'hanneskod\\classtools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanneskod/classtools/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -334,6 +346,10 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
+        'BenSampo\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bensampo/laravel-enum/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -375,6 +391,7 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+        'App\\Http\\Controllers\\BookingController' => __DIR__ . '/../..' . '/app/Http/Controllers/BookingController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\ConvenientController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConvenientController.php',
         'App\\Http\\Controllers\\MotelController' => __DIR__ . '/../..' . '/app/Http/Controllers/MotelController.php',
@@ -394,6 +411,18 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\StaticData' => __DIR__ . '/../..' . '/app/StaticData.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'BenSampo\\Enum\\Commands\\EnumAnnotateCommand' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Commands/EnumAnnotateCommand.php',
+        'BenSampo\\Enum\\Commands\\MakeEnumCommand' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Commands/MakeEnumCommand.php',
+        'BenSampo\\Enum\\Contracts\\EnumContract' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Contracts/EnumContract.php',
+        'BenSampo\\Enum\\Contracts\\LocalizedEnum' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Contracts/LocalizedEnum.php',
+        'BenSampo\\Enum\\Enum' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Enum.php',
+        'BenSampo\\Enum\\EnumServiceProvider' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/EnumServiceProvider.php',
+        'BenSampo\\Enum\\Exceptions\\InvalidEnumMemberException' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Exceptions/InvalidEnumMemberException.php',
+        'BenSampo\\Enum\\PHPStan\\EnumMethodReflection' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/PHPStan/EnumMethodReflection.php',
+        'BenSampo\\Enum\\PHPStan\\EnumMethodsClassReflectionExtension' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/PHPStan/EnumMethodsClassReflectionExtension.php',
+        'BenSampo\\Enum\\Rules\\EnumKey' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Rules/EnumKey.php',
+        'BenSampo\\Enum\\Rules\\EnumValue' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Rules/EnumValue.php',
+        'BenSampo\\Enum\\Traits\\CastsEnums' => __DIR__ . '/..' . '/bensampo/laravel-enum/src/Traits/CastsEnums.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -3834,6 +3863,32 @@ class ComposerStaticInit85edd41cebbb2344dc58c827762cd969
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'hanneskod\\classtools\\Exception' => __DIR__ . '/..' . '/hanneskod/classtools/src/Exception.php',
+        'hanneskod\\classtools\\Exception\\LogicException' => __DIR__ . '/..' . '/hanneskod/classtools/src/Exception/LogicException.php',
+        'hanneskod\\classtools\\Exception\\ReaderException' => __DIR__ . '/..' . '/hanneskod/classtools/src/Exception/ReaderException.php',
+        'hanneskod\\classtools\\Exception\\RuntimeException' => __DIR__ . '/..' . '/hanneskod/classtools/src/Exception/RuntimeException.php',
+        'hanneskod\\classtools\\Instantiator\\Instantiator' => __DIR__ . '/..' . '/hanneskod/classtools/src/Instantiator/Instantiator.php',
+        'hanneskod\\classtools\\Iterator\\ClassIterator' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/ClassIterator.php',
+        'hanneskod\\classtools\\Iterator\\Filter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\CacheFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/CacheFilter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\FilterTrait' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/FilterTrait.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\NameFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/NameFilter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\NamespaceFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/NamespaceFilter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\NotFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/NotFilter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\TypeFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/TypeFilter.php',
+        'hanneskod\\classtools\\Iterator\\Filter\\WhereFilter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/Filter/WhereFilter.php',
+        'hanneskod\\classtools\\Iterator\\SplFileInfo' => __DIR__ . '/..' . '/hanneskod/classtools/src/Iterator/SplFileInfo.php',
+        'hanneskod\\classtools\\Loader\\ClassLoader' => __DIR__ . '/..' . '/hanneskod/classtools/src/Loader/ClassLoader.php',
+        'hanneskod\\classtools\\Name' => __DIR__ . '/..' . '/hanneskod/classtools/src/Name.php',
+        'hanneskod\\classtools\\Transformer\\Action\\CommentStripper' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Action/CommentStripper.php',
+        'hanneskod\\classtools\\Transformer\\Action\\NameResolver' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Action/NameResolver.php',
+        'hanneskod\\classtools\\Transformer\\Action\\NamespaceCrawler' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Action/NamespaceCrawler.php',
+        'hanneskod\\classtools\\Transformer\\Action\\NamespaceWrapper' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Action/NamespaceWrapper.php',
+        'hanneskod\\classtools\\Transformer\\Action\\NodeStripper' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Action/NodeStripper.php',
+        'hanneskod\\classtools\\Transformer\\BracketingPrinter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/BracketingPrinter.php',
+        'hanneskod\\classtools\\Transformer\\MinimizingWriter' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/MinimizingWriter.php',
+        'hanneskod\\classtools\\Transformer\\Reader' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Reader.php',
+        'hanneskod\\classtools\\Transformer\\Writer' => __DIR__ . '/..' . '/hanneskod/classtools/src/Transformer/Writer.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

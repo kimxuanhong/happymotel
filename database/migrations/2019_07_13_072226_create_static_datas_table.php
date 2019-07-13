@@ -15,6 +15,10 @@ class CreateStaticDatasTable extends Migration
     {
         Schema::create('static_datas', function (Blueprint $table) {
             $table->increments('id');
+            $table->text('name');
+            $table->text('slug');
+            $table->integer('parent_id')->unsigned()->nullable();
+            $table->foreign('parent_id')->references('id')->on('static_datas');
             $table->timestamps();
         });
     }
